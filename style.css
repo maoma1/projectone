@@ -1,0 +1,207 @@
+body {
+	margin-right: 1px;
+	background-color: #E0EAEA;
+	background-opacity: 90%;
+	
+	
+}
+h3 {color: grey;
+	
+
+}
+
+.box1 {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin-left: 0;
+	background-color: #4A6D7C;
+
+}
+.topnav {
+	display: flex;
+	
+}
+
+.topnav a {
+	text-decoration: none;
+	padding: 10px;
+	
+}
+
+.topnav a:hover {
+	color: white;
+
+	
+
+}
+.box2 {
+
+	display: flex;
+	padding: 10px;
+	margin-left: 40px;
+	
+}
+
+.box2a {
+	padding: 50px;
+	margin-left: 100px;
+	margin-right: 50px;
+	text-align: center;
+		
+}
+	
+
+.box3 {
+	display: flex;
+	margin-left: 40px;
+	
+}
+.img {
+	background-color: #E0EAEA;
+}
+
+.box3a{
+	padding: 10px;
+	background: #E0EAEA;
+}
+.box3b {
+	padding: 10px;
+	background: #E0EAEA;
+}
+
+.box4b {
+	display: flex;
+    background-color: #E0EAEA;
+	
+	
+}
+.box4 {
+	padding: 10px;
+	margin-left: 40px;
+}
+
+.box4b p {
+	padding: 10px;
+	margin-left: 0px;
+}
+.box4b h3 {
+	text-align: left;
+	margin-left: 10px;
+	
+}
+.box4b img {
+	margin-left: 10px;
+}
+.box4a h3 {
+	background-color: #E0EAEA;
+	padding: 10px;
+}
+.box4 button {
+	background-color: darkgrey;
+}
+
+  @media (max-width: 750px) {
+    .box1 {
+		background-size: cover;
+		font-size: 30px;
+		align-items: center;
+		flex-direction: column;
+		background-color: #4A6D7C;
+		margin-right: 10px;
+		width: 900px;
+
+
+    }
+}
+	
+
+	@media (max-width: 750px) {
+		
+	.box1 .topnav {
+	
+	display: flex;
+	background-size: cover;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+
+	
+    }
+}
+
+    @media (max-width: 750px) {
+    	.box2 {
+			display: flex;
+			flex-direction: column;
+			font-size: 40px;
+			text-align: inherit;
+		    width:  80px;	
+    	}
+    }	
+	
+	@media (max-width: 750px) {
+		
+		.box1 img {
+			width: 300px;
+			height: 100px;
+		}
+	}
+	@media (max-width: 750px) {
+		.box2 {
+			width: 750px;
+			display: flex;
+			flex-direction: column;
+			
+		}
+		.box2 img {
+			margin-left: 150px;
+		}
+	}
+@media (max-width: 750px) {
+	   .box3 {
+		   width: 750px;
+		   display: flex;
+		   flex-direction: column;
+		   font-size: 40px;
+		   margin-left: 150px;
+	   }
+	
+}
+	@media (max-width: 750px){
+		.box4 {
+			font-size: 40px;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			margin-left: 50px;
+			
+		 } 
+}
+    @media (max-width: 750px){
+		.box4b {
+			display: flex;
+			flex-direction: column;
+			width: 750px;
+		}
+		button {
+			
+			margin-bottom: 300px;
+			margin-top: 10px;
+			height: 50px;
+			width: 200px;
+			font-size: 20px;
+			
+		}
+		img {
+			width: 600px;
+		}
+		
+    }
+    @media  (max-width: 750px) {
+         .box4a {
+			 width: 600px;
+         }	
+    	
+    }
